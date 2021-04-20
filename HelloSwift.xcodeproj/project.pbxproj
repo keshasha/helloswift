@@ -13,6 +13,7 @@
 		8F47A698262F688D000D43A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F47A696262F688D000D43A2 /* Main.storyboard */; };
 		8F47A69A262F688E000D43A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F47A699262F688E000D43A2 /* Assets.xcassets */; };
 		8F47A69D262F688E000D43A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F47A69B262F688E000D43A2 /* LaunchScreen.storyboard */; };
+		8F47A6A7262F6E00000D43A2 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F47A6A6262F6E00000D43A2 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8F47A699262F688E000D43A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F47A69C262F688E000D43A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F47A69E262F688E000D43A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F47A6A6262F6E00000D43A2 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8F47A699262F688E000D43A2 /* Assets.xcassets */,
 				8F47A69B262F688E000D43A2 /* LaunchScreen.storyboard */,
 				8F47A69E262F688E000D43A2 /* Info.plist */,
+				8F47A6A6262F6E00000D43A2 /* DetailController.swift */,
 			);
 			path = HelloSwift;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F47A6A7262F6E00000D43A2 /* DetailController.swift in Sources */,
 				8F47A695262F688D000D43A2 /* ViewController.swift in Sources */,
 				8F47A691262F688D000D43A2 /* AppDelegate.swift in Sources */,
 				8F47A693262F688D000D43A2 /* SceneDelegate.swift in Sources */,
@@ -289,7 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7322B6FR6G;
 				INFOPLIST_FILE = HelloSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7322B6FR6G;
 				INFOPLIST_FILE = HelloSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
